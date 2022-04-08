@@ -54,8 +54,16 @@ Planning:
 * bathroomcnt: Number of bathrooms in home including fractional bathrooms
 * bedroomcnt: Number of bedrooms in home
 * taxvaluedollarcnt: The total property tax assessed for that assessment year
-
-
+* latitude: Latitude of the middle of the parcel multiplied by 10e6
+* longitude: Longitude of the middle of the parcel multiplied by 10e6
+* lotsizesquarefeet: Area of the lot in square feet
+* propertylandusetypeid:  Type of land use the property is zoned for
+* regionidcounty:County in which the property is located
+* regionidcity: City in which the property is located (if any)
+* regionidzip:Zip code in which the property is located
+* regionidneighborhood:	Neighborhood in which the property is located
+* roomcnt: Total number of rooms in the principal residence
+* assessmentyear: The year of the property tax assessment 
 ***
 # Steps to Reproduce
 You will need your own env file with database credentials along with all the necessary files listed below to run the "Final Report" notebook.
