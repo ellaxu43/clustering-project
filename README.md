@@ -83,20 +83,18 @@ Run the final_report.ipynb notebook
 ***
 # Initial Questions:
 
-What's the distribution of the home values?
 
-What's the distribution of the building years?
+What's the distribution of the logerror? 
 
-What's tax_value of homes through the years?¶
+What are the correlation coefficients between variables? 
 
-Are homes with more bedrooms and bathrooms worth more?
+What areas are we focusing on?
 
-Are homes in certain areas worth more than one other?
+Does year built impact logerror?
 
-Are homes with bigger area worth more?
+Does bedroom count impact logerror?
 
-What are two features have strongest relationship with tax_value?
-
+Does bathroom count impact logerror?
 
 ***
 
