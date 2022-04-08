@@ -1,5 +1,5 @@
 # Project Goal
-Using 2017 properties and prediction data from our Zillow database for single unit/single family homes, we were tasking with improving the log error (Zestimate). We will be using the ML Clustering Algorithm KMeans to find clusters within the data to improve our estimate of the log error.I will create Regression models to predict logerror and find the key drivers.
+Using 2017 properties and prediction data from our Zillow database for single unit/single family homes, we were tasking with improving the log error (Zestimate). We will be using the ML Clustering Algorithm KMeans to find clusters within the data to improve our estimate of the log error.I will create Regression models to predict logerror and find the key drivers. One step further, hope this study can improve our understanding to log error, and provide useful information for future study. 
 ***
 
 # Project Description
@@ -8,7 +8,7 @@ Zillow has data on roughly 110 million homes across the United States.The compan
 
 As the most visited real estate website in the United States, Zillow and its affiliates provide customers with an on-demand experience selling, buying, leasing and financing with a transparent and near-seamless end-to-end service. However, as we all know, the real estate market is constantly volatile and changing. 
 
-Zillow's Zestimate is an estimate of value using a proprietary formula created by the online real estate database company. Zestimates cover more than 100 million homes across the United States. A Zestimate is calculated from physical attributes, tax records, and user submitted data
+Zillow's Zestimate is an estimate of value using a proprietary formula created by the online real estate database company. Zestimates cover more than 100 million homes across the United States. A Zestimate is calculated from physical attributes, tax records, and user submitted data. 
 ***
 
 # Project Planning
@@ -67,6 +67,8 @@ Download at the aquire.py and Final Report.ipynb file into your working director
 Create a .gitignore for your .env file
 
 Add your own env file to your directory with username, password, and host address.
+
+Import Basemap package. 
 
 Run the final_report.ipynb notebook
 
