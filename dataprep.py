@@ -98,7 +98,7 @@ def wrangle_zillow():
        ,'propertycountylandusecode', 'propertylandusetypeid','propertyzoningdesc', 
         'censustractandblock', 'propertylandusedesc','heatingorsystemdesc','unitcnt'
                             ,'buildingqualitytypeid','transactiondate','regionidcity',
-                             'parcelid'])
+                             'parcelid','assessmentyear','roomcnt','structuretaxvaluedollarcnt','landtaxvaluedollarcnt','rawcensustractandblock'])
 
     # replace nulls with median values for select columns
     df.lotsizesquarefeet.fillna(7313, inplace = True)
@@ -144,7 +144,7 @@ def remove_outliers(df, k, col_list):
     
 def removed_outliers(df):
     
-    df = remove_outliers(df, 1.5, [ 'bathrooms','bedrooms','area'])
+    df = remove_outliers(df, 1.5, [ 'bathrooms','bedrooms','area','lotsizesquarefeet'])
     train_validate, test = train_test_split(df, test_size=.2, random_state=123)
     train, validate = train_test_split(train_validate, test_size=.3, random_state=123)
     
